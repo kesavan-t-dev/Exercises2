@@ -220,7 +220,7 @@ input:active{
     width: auto ;
     position: relative;
     font-size: 100%;
-    padding: 0px 7px ; 
+    padding: 1px 7px ; 
     border-radius: 3px;
     outline-color: #d3d1d1;
     background-color: #F0f0f0;
@@ -338,12 +338,10 @@ input:active{
 .bottom{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #606060; 
-    font-size :12px;
+    font-size :13px;
+    letter-spacing: .005em;
     padding: 0 0 3.125rem;
-    text-underline-offset:none;
 }
-
-
 
 
 .forms h4{
