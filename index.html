@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Exercise-2</title>
+    <title>Mortgage Application</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="25x25" href="./assets/images/bg-icon.png">
     <style>
         body {transition: opacity ease-in 0.2s; } 
         body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
@@ -12,17 +13,17 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-        <div class="form-container">
+        <div class="form_container">
             <h1 class="logo">
-                <a href="https://www.wufoo.com/?utm_source=form-header&utm_medium=logo" target="_blank"><img src="./assets/images/wflogo-padding.png" alt="Wufoo-logo" class="logo-icon"></a>
+                <a href="https://www.wufoo.com/?utm_source=form-header&utm_medium=logo" target="_blank"><img src="./assets/images/wflogo-padding.png" alt="Wufoo-logo" class="logo_icon"></a>
             </h1>
             <div class="form">
                 <div id="header" class="info">
                     <h2>Mortgage Application</h2>
                 </div>
                 <ul>
-                    <li id="purpose-for-loan"  class="purpose-for-loan" >
-                        <label for="purpose" class="description form-item">Purpose for Mortgage or loan </label>
+                    <li id="purpose_for_loan"  class="purpose_for_loan" >
+                        <label for="purpose" class="description form_item">Purpose for Mortgage or loan </label>
                         <div>
                             <select name="purpose" id="purpose" class="select">
                                 <option value="Home Loan">Home Loan</option>
@@ -38,26 +39,26 @@
                         </div>
                     </li>
 
-                    <li id="loan-amount" class="loan-amount">
-                        <label for="loan-amount" class="description">Loan Amount</label>
-                        <div class="input-container">
+                    <li id="loan_amount" class="loan_amount">
+                        <label for="loan_amount" class="description">Loan Amount</label>
+                        <div class="input_container">
                         <span class="symbol">$</span>
-                        <div class="input-text">
-                            <input type="text" class="input-box">
-                            <label for="Dollars" class="desc-text">Dollars</label>
+                        <div class="input_text">
+                            <input type="text" class="input_box">
+                            <label for="Dollars" class="desc_text">Dollars</label>
                         </div>
                         <span class="symbol">.</span>
                         <span>
-                            <div class="input-text">
-                            <input type="text" class="cents-input">
-                            <label for="Cents" class="desc-text">Cents</label>
+                            <div class="input_text">
+                            <input type="text" class="cents_input">
+                            <label for="Cents" class="desc_text">Cents</label>
                             </div>
                         </span>
                         </div>
                     </li>
 
-                    <li id="property-types" class="property-types" >
-                        <label for="property" class="description form-item">Types of Property</label>
+                    <li id="property_types" class="property_types" >
+                        <label for="property" class="description form_item">Types of Property</label>
                         <div>
                             <select name="proper" id="property" class="select">
                                 <option value="House"><span>House</span></option>
@@ -67,50 +68,50 @@
                         </div>
                     </li>
                     
-                    <li id="property-value" class="property-value">
-                        <label for="Estimated-price" class="description form-item" >Estimated Price or Value of Property</label>
-                        <div class="input-container">
+                    <li id="property_value" class="property_value">
+                        <label for="Estimated_price" class="description form_item" >Estimated Price or Value of Property</label>
+                        <div class="input_container">
                         <span class="symbol">$</span>
-                        <div class="input-text">
-                            <input type="text" class="input-box">
-                            <label for="Dollars" class="desc-text">Dollars</label>
+                        <div class="input_text">
+                            <input type="text" class="input_box">
+                            <label for="Dollars" class="desc_text">Dollars</label>
                         </div>
                         
                         <span class="symbol">.</span>
                         <span>
-                            <div class="input-text">
-                            <input type="text" class="cents-input">
-                            <label for="Cents" class="desc-text">Cents</label>
+                            <div class="input_text">
+                            <input type="text" class="cents_input">
+                            <label for="Cents" class="desc_text">Cents</label>
                             </div>
                         </span>
                         </div>
                     </li>
 
-                    <li id="property-location" class="property-location">
-                        <label for="property-location" class="description">Location of Property</label>
-                        <div class="location-container">                        
-                        <div class="input-address">
-                            <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">Street Address</label>
+                    <li id="property_location" class="property_location">
+                        <label for="property_location" class="description">Location of Property</label>
+                        <div class="location_container">                        
+                        <div class="input_address">
+                            <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">Street Address</label>
                         </div>
-                        <div class="input-address">
-                            <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">Address Line 2</label>
+                        <div class="input_address">
+                            <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">Address Line 2</label>
                         </div>
-                        <div class="two-columns">
+                        <div class="two_columns">
                             <div class="row">
-                                <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">City</label>
+                                <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">City</label>
                             </div>
                             <div class="row">
-                                <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">State / Province / Region</label>
+                                <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">State / Province / Region</label>
                             </div>
                         </div>
-                        <div class="two-columns">
+                        <div class="two_columns">
                             <div class="row">
-                                <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">Postal / Zip Code</label>
+                                <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">Postal / Zip Code</label>
                             </div>
                             <div class="row">
                                 
@@ -369,28 +370,28 @@
 									<option value="Zimbabwe" >Zimbabwe</option>
                                     </select>
                                 
-                            <label for="street-address" class="desc-text">Country</label>
+                            <label for="street_address" class="desc_text">Country</label>
                             </div>
                         </div>
                         </div>
                     </li>
                     
-                    <li id="down-payment" class="down-payment">
-                        <label for="down-payment" class="description form-item"> Down Payment Percentage</label>
+                    <li id="down_payment" class="down_payment">
+                        <label for="down_payment" class="description form_item"> Down Payment Percentage</label>
                         <div>
-                            <select name="down-payment"  class="select">
+                            <select name="down_payment"  class="select">
                                 <option value="Selected"></option>
                                 <option value="Not Applicable">Not Applicable</option>
                                 <option value="0% - 5%">0% - 5%</option>
-                                <option value="6% - 10%">6% - 10%</option>
+                                <option value="6% - 10%">6%- 10%</option>
                             </select>
                         </div>
                     </li>
 
-                    <li id="current-mortgage" class="current-mortgage">
-                        <label for="current-mortgage" class="description form-item"> Current Mortgage Company</label>
+                    <li id="current_mortgage" class="current_mortgage">
+                        <label for="current_mortgage" class="description form_item"> Current Mortgage Company</label>
                         <div>
-                            <select name="current-mortgage"  class="select">
+                            <select name="current_mortgage"  class="select">
                                 <option value="Selected"></option>
                                 <option value="Company One">Company One</option>
                                 <option value="Company Two">Company Two</option>
@@ -398,10 +399,10 @@
                         </div>
                     </li>
                     
-                    <li id="refer-agent" class="refer-agent">
-                        <label for="refer-agent" class="description form-item"> Would you like a Referral to a Real Estate Agent? </label>
+                    <li id="refer_agent" class="refer_agent">
+                        <label for="refer_agent" class="description form_item"> Would you like a Referral to a Real Estate Agent? </label>
                         <div>
-                            <select name="refer-agent" id="refer-agent" class="select">
+                            <select name="refer_agent" id="refer_agent" class="select">
                                 <option value="Selected"></option>
                                 <option value="Company One">Company One</option>
                                 <option value="Company Two">Company Two</option>
@@ -412,51 +413,51 @@
                     </li>
 
                     <li id="age" class="age">
-                        <label for="age" class="description form-item">Age</label>
+                        <label for="age" class="description form_item">Age</label>
                         <div>
                             <input type="text" class="input" id="age" required />
                         </div>
                     </li>
 
                     <li id="occupation" >
-                        <label for="occupation" class="description form-item">Occupation</label>
-                        <input type="text" class="o-input" required>
+                        <label for="occupation" class="description form_item">Occupation</label>
+                        <input type="text" class="o_input" required>
                         
                     </li>
 
-                    <li id="current-job" class="current-job">
-                        <label for="job-period" class="description form-item">How long have been at your current Job? </label>
+                    <li id="current_job" class="current_job">
+                        <label for="job_period" class="description form_item">How long have been at your current Job? </label>
                         <div>
-                            <select name="job-period" id="job-period" class="select">
+                            <select name="job_period" id="job_period" class="select">
                                 <option value="First Choice">First choice</option>
                                 <option value="Second Choice">Second choice</option>
                                 <option value="Third Choice">Third choice</option>
                             </select>
                         </div>
                     </li>
-                    <li id="house-hold-income" class="house-hold-income">
-                        <label for="house-hold-income"  class="description form-item">Household Income</label>
-                        <div class="input-container">
+                    <li id="house_hold_income" class="house_hold_income">
+                        <label for="house_hold_income"  class="description form_item">Household Income</label>
+                        <div class="input_container">
                         <span class="symbol">$</span>
-                        <div class="input-text">
-                            <input type="text" class="input-box" maxlength="5">
-                            <label for="Dollars" class="desc-text">Dollars</label>
+                        <div class="input_text">
+                            <input type="text" class="input_box" maxlength="5">
+                            <label for="Dollars" class="desc_text">Dollars</label>
                         </div>
                         
                         <span class="symbol space">.</span>
                         <span>
-                            <div class="input-text">
-                            <input type="text" class="cents-input" maxlength="2">
-                            <label for="Cents" class="desc-text">Cents</label>
+                            <div class="input_text">
+                            <input type="text" class="cents_input" maxlength="2">
+                            <label for="Cents" class="desc_text">Cents</label>
                             </div>
                         </span>
                         </div>
                     </li>
 
-                    <li id="credit-rating" class="credit-rating">
-                        <label for="credit-rating" class="description form-item">Please describe your credit rating?</label>
+                    <li id="credit_rating" class="credit_rating">
+                        <label for="credit_rating" class="description form_item">Please describe your credit rating?</label>
                         <div>
-                            <select name="credit-rating" id="credit-rating" class="select">
+                            <select name="credit_rating" id="credit_rating" class="select">
                                 <option value="First Choice">First Choice</option>
                                 <option value="Second Choice">Second Choice</option>
                                 <option value="Third Choice">Third Choice</option>
@@ -464,60 +465,60 @@
                         </div>
                     </li>
 
-                    <li id="title-section" >
+                    <li id="title_section" >
                         <div class="infos ">
                             <h2 >Contact Information</h2>
                         </div>
                     </li>
 
-                    <li id="name-section" class="name-section">
-                        <label for="name" class="description form-item">Name</label>
-                        <div class="input-container">
-                            <div class="input-text">
-                            <input type="text" class="cents-input margins" >
-                            <label for="title" class="desc-text ">Title</label>
+                    <li id="name_section" class="name_section">
+                        <label for="name" class="description form_item">Name</label>
+                        <div class="input_container">
+                            <div class="input_text">
+                            <input type="text" class="cents_input margins" >
+                            <label for="title" class="desc_text ">Title</label>
                             </div>
                             
-                            <div class="input-text">
-                            <input type="text" class="name-input margins">
-                            <label for="fname" class="desc-text desc">First</label>
+                            <div class="input_text">
+                            <input type="text" class="name_input margins">
+                            <label for="fname" class="desc_text desc">First</label>
                             </div>
-                            <div class="input-text">
-                            <input type="text" class="name-input margins">
-                            <label for="lname" class="desc-text desc">Last</label>
+                            <div class="input_text">
+                            <input type="text" class="name_input margins">
+                            <label for="lname" class="desc_text desc">Last</label>
                             </div>
-                            <div class="input-text">
-                            <input type="text" class=" s-input">
-                            <label for="suffix" class="desc-text ">Suffix</label>
+                            <div class="input_text">
+                            <input type="text" class=" s_input">
+                            <label for="suffix" class="desc_text ">Suffix</label>
                             </div>
                         </div>
                     </li>
 
-                    <li id="address-location" class="address-location">
-                        <label for="address-location" class="description">Address</label>
-                        <div class="location-container">                        
-                        <div class="input-address">
-                            <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">Street Address</label>
+                    <li id="address_location" class="address_location">
+                        <label for="address_location" class="description">Address</label>
+                        <div class="location_container">                        
+                        <div class="input_address">
+                            <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">Street Address</label>
                         </div>
-                        <div class="input-address">
-                            <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">Address Line 2</label>
+                        <div class="input_address">
+                            <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">Address Line 2</label>
                         </div>
-                        <div class="two-columns">
+                        <div class="two_columns">
                             <div class="row">
-                                <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">City</label>
+                                <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">City</label>
                             </div>
                             <div class="row">
-                                <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">State / Province / Region</label>
+                                <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">State / Province / Region</label>
                             </div>
                         </div>
-                        <div class="two-columns">
+                        <div class="two_columns">
                             <div class="row">
-                                <input type="text" id="street-address" required/>
-                            <label for="street-address" class="desc-text">Postal / Zip Code</label>
+                                <input type="text" id="street_address" required/>
+                            <label for="street_address" class="desc_text">Postal / Zip Code</label>
                             </div>
                             <div class="row">
                                 
@@ -776,56 +777,56 @@
 									<option value="Zimbabwe" >Zimbabwe</option>
                                     </select>
                                 
-                            <label for="street-address" class="desc-text">Country</label>
+                            <label for="street_address" class="desc_text">Country</label>
                             </div>
                         </div>
                         </div>
                     </li>
 
-                    <li id="phone-number" class="phone-number">
-                        <label for="phone-number" class="description form-item">Primary Phone</label>
-                        <div class="input-container">
-                            <div class="input-text">
-                                <input type="tel" class="p-input-1"  max="3">
+                    <li id="phone_number" class="phone_number">
+                        <label for="phone_number" class="description form_item">Primary Phone</label>
+                        <div class="input_container">
+                            <div class="input_text">
+                                <input type="tel"  class="p_input_1 "  pattern="\d{3}" maxlength="3">
                                 <label for="title" class="desc-text ">###</label>
                             </div>
                             <span class="symbol">-</span>
-                            <div class="input-text">
-                                <input type="tel" class="p-input-1" maxlength="3" >
-                                <label for="title" class="desc-text ">###</label>
+                            <div class="input_text">
+                                <input type="tel" class="p_input_1" pattern="\d{3}" maxlength="3" >
+                                <label for="title" class="desc_text ">###</label>
                             </div>
                             <span class="symbol">-</span>
-                            <div class="input-text">
-                                <input type="tel" class="p-input-2" maxlength="4" >
-                                <label for="title" class="desc-text ">####</label>
+                            <div class="input_text">
+                                <input type="tel" class="p_input_2" pattern="\d{4}" maxlength="4" >
+                                <label for="title" class="desc_text ">####</label>
                             </div>
                         </div>
                     </li>
                     
-                    <li id="alternate-phone-number" class="alternate-phone-number">
-                        <label for="alternate-phone-number" class="description form-item">Alternate Phone</label>
-                        <div class="input-container">
-                            <div class="input-text">
-                                <input type="tel" class="p-input-1"  max="3">
-                                <label for="title" class="desc-text ">###</label>
+                    <li id="alternate_phone_number" class="alternate_phone_number">
+                        <label for="alternate_phone_number" class="description form_item">Alternate Phone</label>
+                        <div class="input_container">
+                            <div class="input_text">
+                                <input type="tel" class="p_input_1"  pattern="\d{3}" maxlength="3">
+                                <label for="title" class="desc_text ">###</label>
                             </div>
                             <span class="symbol">-</span>
-                            <div class="input-text">
-                                <input type="tel" class="p-input-1" maxlength="3" >
-                                <label for="title" class="desc-text ">###</label>
+                            <div class="input_text">
+                                <input type="tel" class="p_input_1" pattern="\d{3}" maxlength="3" >
+                                <label for="title" class="desc_text ">###</label>
                             </div>
                             <span class="symbol">-</span>
-                            <div class="input-text">
-                                <input type="tel" class="p-input-2" maxlength="4" >
-                                <label for="title" class="desc-text ">####</label>
+                            <div class="input_text">
+                                <input type="tel" class="p_input_2" pattern="\d{4}" maxlength="4">
+                                <label for="title" class="desc_text ">####</label>
                             </div>
                         </div>
                     </li>
                     
-                    <li id="email-address" class="email-address">
-                      <label for="street-address" class="description form-item">Email Address</label>
-                        <div class="input-address">
-                            <input type="text" id="street-address" required/>
+                    <li id="email_address" class="email_address">
+                      <label for="street_address" class="description form_item">Email Address</label>
+                        <div class="input_address">
+                            <input type="text" id="street_address" required/>
                         </div>
                     </li>
 
@@ -844,8 +845,8 @@
 
         </div>
         <div >
-         <a href="https://www.wufoo.com/?utm_source=form-footer&utm_medium=logo">   
-        <b class="footer-text">Powered by</b>
+         <a class="remove_link" href="https://www.wufoo.com/?utm_source=form-footer&utm_medium=logo">   
+        <p class="footer_text">Powered by</p>
         <a href="" class="content">
             <img src="assets/images/wufoo-logo-footer-logo.png" alt="wufoo">
         </a>
